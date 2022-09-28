@@ -5,6 +5,8 @@ body {
     display: flex;
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .header,
@@ -32,17 +34,27 @@ body {
     display: flex;
     flex: 1;
     border: 1px yellow solid;
+    justify-content: center;
+    align-items: center;
 }
 
 .quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
     display: flex;
     flex: 1;
-    background-color: #E5E7EB;
 }
 
 .modal {
-    flex: 1;
+    height: 100px;
+    min-width: 70%;
     background-color: #3882F6;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 ul {
