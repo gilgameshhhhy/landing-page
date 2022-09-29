@@ -21,19 +21,66 @@ body {
     padding: 0 15%;
 }
 
+ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin-left: auto;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
 .footer {
     font-size: 14px;
 }
 
-.hero {
+.hero-container {
+    display: flex;
     flex: 1;
     background-color: #1F2937;
+    padding: 5% 15%;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
 }
 
+.hero {
+    color: #F9FAF8;
+    flex: 1;
+    gap: 5px;
+}
+
+.main {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.button-one {
+    background-color:#3882F6;
+    color: #E5E7EB;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 25px;
+    margin: 10px 0px;
+}
+
+.placeholder {
+    display: flex;
+    flex: 1;
+    background-color: gray;
+    width: 500px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
 .content {
     display: flex;
     flex: 1;
-    border: 1px yellow solid;
     justify-content: center;
     align-items: center;
     padding: 5% 15%;
@@ -120,7 +167,7 @@ span {
     font-weight: 100;
 }
 
-button {
+.button-two {
     background-color:#3882F6;
     color: #E5E7EB;
     border: 1px white solid;
@@ -128,15 +175,4 @@ button {
     padding: 5px 25px;
 }
 
-ul {
-    list-style: none;
-    display: flex;
-    gap: 15px;
-    margin-left: auto;
-}
 
-a {
-    text-decoration: none;
-    font-size: 18px;
-    color: #E5E7EB;
-}
