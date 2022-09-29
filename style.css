@@ -36,26 +36,79 @@ body {
     border: 1px yellow solid;
     justify-content: center;
     align-items: center;
+    padding: 5% 15%;
+}
+
+.column {
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5% 20%;
+    gap: 50px;
+}
+
+.info-head {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.card-container {
+    display: flex;
+    gap: 30px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #1F2937;
+    font-size: 16px;
+    gap: 10px;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+    border: 2px #3882F6 solid;
+    border-radius: 10px;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 20%;
+    background-color: #E5E7EB;
 }
 
 .quote {
-    background-color: #E5E7EB;
     font-size: 36px;
     font-style: italic;
+    font-weight: lighter;
     color: #1F2937;
-    display: flex;
     flex: 1;
 }
 
+.name {
+    color: #1F2937;
+    align-self: flex-end;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 5%;
+}
+
 .modal {
-    height: 100px;
-    min-width: 70%;
+    padding: 30px 0;
     background-color: #3882F6;
     border-radius: 5px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    flex: 1;
     align-items: center;
+    justify-content: space-evenly;
 }
 
 .text {
