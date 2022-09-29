@@ -53,8 +53,26 @@ body {
     background-color: #3882F6;
     border-radius: 5px;
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-evenly;
     align-items: center;
+}
+
+.text {
+    font-weight: bold;
+}
+
+span {
+    font-size: 14px;
+    font-weight: 100;
+}
+
+button {
+    background-color:#3882F6;
+    color: #E5E7EB;
+    border: 1px white solid;
+    border-radius: 5px;
+    padding: 5px 25px;
 }
 
 ul {
